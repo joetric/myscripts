@@ -1,3 +1,4 @@
+# installs Brother 7820N as a network scanner
 sudo apt-get install -y sane-utils
 sudo wget -O brscan_driver.deb http://www.brother.com/pub/bsc/linux/dlf/brscan2-0.2.5-1.amd64.deb
 sudo dpkg -i brscan_driver.deb
